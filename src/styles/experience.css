@@ -1,0 +1,30 @@
+.experience-section {
+  margin: 2em 2em;
+}
+.experience-content {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin: 2em 2em;
+}
+.experience-title{
+  position: relative;
+}
+.experience-content-section{
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+  padding:2em;
+  flex:1;
+  margin: 0 1em 1em 0;
+  background: rgba(27, 42, 51, 0.5);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.134);
+}
+.experience-technologies {
+  color: var(--orange);
+}
+@media screen and (max-width:800px) {
+  .experience-content{
+      flex-direction: column;
+  }
+  }

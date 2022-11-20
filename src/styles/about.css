@@ -1,0 +1,32 @@
+.about-name{
+    color: var(--orange);
+}
+.about-hi{
+    font-family: 'Kalam', cursive;
+    color: white;
+    font-size: 2em;
+    padding-left:0.5em;
+    margin:0;
+    line-height: 1em;
+}
+.about-big-circle{
+height:80rem;
+width: 70rem;
+top:-20rem;
+left: -20rem;
+position: absolute;
+float:left;
+shape-outside: circle();
+clip-path: circle();
+background-color: var(--items_blue);
+}
+.about{
+    position: relative;
+}
+.about-body{
+    display:grid;
+    margin: 2em 2em;
+    float:bottom;
+    position:relative;
+    grid-template-columns: 45% 55%;
+}

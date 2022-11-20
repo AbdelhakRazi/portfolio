@@ -1,0 +1,24 @@
+.skills{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 5em;
+    bottom:0;
+}
+.skills-section{
+    border-radius: 30px;
+    flex:1;
+    backdrop-filter: blur(15px);
+    padding:4em 2em 2em 2em;
+    margin: 0 1em 1em 0;
+    background: rgba(27, 42, 51, 0.5);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.134);
+}
+.skills-section-icon{
+    color: var(--orange);
+    height: 2em;
+    width: 2em;
+    margin: 0 0 1em 0;
+}
+.skills-section:hover{
+    transform: translateY(-3px);
+}

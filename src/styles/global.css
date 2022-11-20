@@ -1,0 +1,75 @@
+/*pour les components gloal tel que header body etc navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --background_blue: #20343F;
+    --items_blue: #1C2D36;
+    --profile_color: #1B2A33;
+    --orange: #F2C791;
+    margin:0;
+    padding:0;
+    background-color: var(--background_blue);
+    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 4em;
+    color: white;
+    margin:0px;
+    line-height: 1em;
+}
+h2{
+    font-size: 2em;
+    color: white;
+    margin:0;
+    line-height: 1em;
+
+}
+h4{
+    shape-outside: circle();
+    clip-path: circle();
+    background: rgba(15, 23, 28, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding:25px;
+    font-family: 'Kalam', cursive;
+    color: white;
+    margin: 0 auto;
+    line-height: 1em;    
+   }
+h5{
+    color: white;
+    line-height: 2em;
+}
+p{
+margin:0;
+color: white;
+line-height: 1.5em;
+font-size: 1rem;
+}
+h6{
+    position: relative;
+    font-size:3em;
+    padding-left:0.5em;
+    color:var(--orange);
+
+}
+.special-circle {
+    position: absolute;
+    height: 8rem;
+    width:8rem;
+    top:0;
+    left:0;
+    z-index: -1;
+    shape-outside: circle();
+    clip-path: circle();
+    background-color: var(--items_blue);
+  }
+@media screen and (max-width:800px) {
+    *{
+        font-size:10px;
+    }
+    }
