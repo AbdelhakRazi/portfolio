@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description:
       "Claude and Copilot write Flutter code that looks correct but silently breaks architecture. This Skill fixes that at the instruction level. BLoC and Clean Architecture rules encoded as decision trees the model runs through before generating a single line. Endorsed by Felix Angelov, the creator of BLoC.",
     tech: ["Clean Architecture", "BLoC", "State Management", "Flutter", "Claude Skills", "Open Source"],
-    stars: 10,
+    stars: 11,
     github: "https://github.com/AbdelhakRazi/flutter-bloc-clean-architecture-skill",
     articleSlug: "ai-agent-skill",
   },
