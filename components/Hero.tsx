@@ -14,9 +14,9 @@ export function Hero() {
         >
           <div className="flex items-start gap-5 mb-6">
             <img
-              src="/profile.jpg"
+              src="/profile.jpeg"
               alt="Razi Abdelhak"
-              className="w-16 h-16 rounded-full object-cover shrink-0 mt-1"
+              className="w-24 h-24 rounded-full object-cover shrink-0 mt-1"
             />
             <div>
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-text-primary leading-[1.15] mb-2">
